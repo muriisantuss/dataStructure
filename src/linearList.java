@@ -57,4 +57,18 @@ public class linearList {
     }
     return ps;
   }
+
+  boolean exclusionOfAnElement(int ps) {
+    int pos = 0;
+    pos = sequentialSearch(ps);
+    if (pos == -1) {
+      return false;
+    }
+    for (int j = pos; j < this.nroElem - 1; j++)
+      list[j] = list[j + 1];
+    {
+      nroElem--;
+      return true;
+    }
+  }
 }

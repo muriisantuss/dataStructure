@@ -17,6 +17,11 @@ public class App {
         l.sequentialSearch(searchIndex);
         System.out.println();
 
+        int deletionPosition = 7;
+        System.out.println("Deleting element at position " + deletionPosition + ":");
+        l.exclusionOfAnElement(deletionPosition);
+        System.out.println();
+
         System.out.println("Current state of the list:");
         l.printList();
         System.out.println();
