@@ -45,4 +45,16 @@ public class linearList {
     }
   }
 
+  int sequentialSearch(int ps) {
+    int i = 0;
+    while (i < this.nroElem) {
+      if (ps == i) {
+        System.out.println("Value: " + list[i]);
+        break;
+      } else {
+        i++;
+      }
+    }
+    return ps;
+  }
 }

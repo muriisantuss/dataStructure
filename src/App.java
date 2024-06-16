@@ -12,6 +12,11 @@ public class App {
         l.insertionOfElements(insertionElement, insertionPosition);
         System.out.println();
 
+        int searchIndex = 8;
+        System.out.println("Performing sequential search for index " + searchIndex + ":");
+        l.sequentialSearch(searchIndex);
+        System.out.println();
+
         System.out.println("Current state of the list:");
         l.printList();
         System.out.println();
