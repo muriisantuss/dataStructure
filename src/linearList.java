@@ -23,6 +23,10 @@ public class linearList {
       list[i] = number = number * 2;
     }
   }
-  
 
+  void printList() {
+    for (int i = 0; i < this.nroElem; i++) {
+      System.out.println("List: " + list[i]);
+    }
+  }
 }

@@ -5,8 +5,11 @@ public class App {
         l.initializeList();
         l.size(10);
         l.setValues(1);
-
-
+        
+        System.out.println("Current state of the list:");
+        l.printList();
+        System.out.println();
+        
         System.out.println();
     }
 }
