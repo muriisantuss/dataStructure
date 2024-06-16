@@ -71,4 +71,8 @@ public class linearList {
       return true;
     }
   }
+
+  void resetList() {
+    this.nroElem = 0;
+  }
 }

@@ -26,6 +26,11 @@ public class App {
         l.printList();
         System.out.println();
 
+        System.out.println("Resetting the list:");
+        l.resetList();
+        System.out.println("List after reset:");
+        l.printList();
+
         System.out.println();
     }
 }
