@@ -4,6 +4,8 @@ public class App {
 
         l.initializeList();
         l.size(10);
+        l.setValues(1);
+
 
         System.out.println();
     }

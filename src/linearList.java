@@ -17,6 +17,12 @@ public class linearList {
   void size(int l) {
     this.nroElem = l;
   }
+
+  void setValues(int number) {
+    for (int i = 0; i < this.nroElem; i++) {
+      list[i] = number = number * 2;
+    }
+  }
   
 
 }
