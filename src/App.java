@@ -3,6 +3,7 @@ public class App {
         linearList l = new linearList();
 
         l.initializeList();
+        l.size(10);
 
         System.out.println();
     }

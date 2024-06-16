@@ -14,5 +14,9 @@ public class linearList {
     this.nroElem = 0;
   }
 
+  void size(int l) {
+    this.nroElem = l;
+  }
   
+
 }
