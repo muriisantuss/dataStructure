@@ -29,4 +29,20 @@ public class linearList {
       System.out.println("List: " + list[i]);
     }
   }
+
+  boolean insertionOfElements(int reg, int i) {
+    if (this.nroElem == list.length || i < 0 || i > this.nroElem) {
+      System.out.println("Fill");
+      return false;
+    }
+    for (int j = this.nroElem; j > i; j--)
+      list[j] = list[j - 1];
+    {
+      list[i] = reg;
+      nroElem++;
+      System.out.println("Value: " + list[i]);
+      return true;
+    }
+  }
+
 }
