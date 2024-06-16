@@ -1,6 +1,6 @@
 public class linearList {
-  public int[] list = new int[10];
-  public int nroElem;
+  private int[] list = new int[10];
+  private int nroElem;
 
   public linearList() {
   }
@@ -10,4 +10,9 @@ public class linearList {
     this.nroElem = nroElem;
   }
 
+  void initializeList() {
+    this.nroElem = 0;
+  }
+
+  
 }
